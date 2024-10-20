@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container {
+    max-width: 100%;
+    height: 100vh;
+    padding: 10px;
+    background-color: rgb(83, 80, 80);
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.main-container > div {
+    background-color: rgb(245, 245, 245);
+}
+.main-container > div:first-child{
+    height: 140px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.main-container > div:first-child ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.main-container > div:first-child ul li{
+    margin-top: 5px;
+}
+.main-container > div:first-child ul a{
+    text-decoration: none;
+    color: rgb(31, 30, 30);
+    margin-left: 10px;
+}
+.main-container > div:first-child ul a:hover{
+    color: blueviolet;
+}
+.main-container > div:nth-child(2){
+    height: 160px;
+    border-radius: 10px;
+}
+.main-container > div:nth-child(3){
+    height: 160px;
+    border-radius: 10px;
+}
+.main-container > div:nth-child(4){
+    height: 140px;
+    border-radius: 10px;
+}
+.main-container > div:nth-child(4) ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.main-container > div:nth-child(4) ul li{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.main-container > div:nth-child(4) ul a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: purple;
+}
+.main-container > div:nth-child(4) ul a:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.main-container > div:nth-child(5){
+    grid-column: 1/3;
+    height: 230px;
+    border-radius: 10px;
+}
+.main-container > div:nth-child(5) img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px grey;
+
+}
+.main-container > div:last-child{
+    grid-column: 3/5;
+    height: 230px;
+    border-radius: 10px;
+}
+.main-container > div:last-child img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px grey;
+}
+.fa-instagram{
+    color: rgb(231, 58, 87);
+}
+.fa-x{
+    color: black;
+}
+.fa-pinterest{
+    color: rgb(252, 20, 20);
+}
+.fa-facebook{
+    color: blue;
+}
